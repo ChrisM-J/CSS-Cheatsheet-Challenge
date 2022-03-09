@@ -1,0 +1,151 @@
+/* - - FONTS - - */
+
+@font-face {
+    font-family: Lobster;
+    src: url('../fonts/Lobster.ttf') format('truetype');
+}
+@font-face {
+    font-family: Abel;
+    src: url('../fonts/Abel.ttf') format('truetype');
+}
+@font-face {
+    font-family: RedHatMono;
+    src: url('../fonts/RedHatMono.ttf') format('truetype');
+}
+
+/* - - body - - */
+
+body {
+    align-content: center;
+}
+
+/* - - HEADER - - */
+
+img {
+    height: 90px;
+    width: 90px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+.header {
+    background-color: #5B9279;
+    text-align: center;
+}
+
+.header li {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    padding-left: 90px;
+    padding-right: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #D0EECA;
+    font-size: 20px;
+}
+
+/* - - LINKDECORATION AND HOVER FOR HEADER AND FOOTER - - */
+
+a {
+    color: #72D6A9;
+}
+
+a:hover {
+    color: #ffe4c4;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+/* - - BANNER - - */
+
+.headline {
+    background-color: #72D6A9;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Lobster, Arial, Helvetica, sans-serif;
+    color: #5B9279;
+    font-size: 90px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+/* - - TABLE - - */
+
+section {
+    background-color: #5B9279;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Abel, Arial, Helvetica, sans-serif;
+    color: #9aeec8;
+    font-size: 40px;
+}
+
+table, th, td {
+    border: 2px solid #ffffff;
+    font-family: Abel, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+thead {
+    background-color: #898F8C;
+}
+
+.code {
+    text-align: center;
+}
+
+.tag {
+    background-color: #B8BFBC;
+}
+
+.property {
+    background-color: #B8BFBC;
+}
+
+/* - - FOOTER - - */
+
+.footer {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    background-color: #898F8C;
+    font-family: Abel, Arial, Helvetica, sans-serfi;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* - - UPS - - */
+
+.ups-body {
+    background-color:#72D6A9
+}
+
+.ups-h2-1 {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    text-align: center;
+    font-family: Lobster;
+    color: #ffffff;
+    font-size: 90px;
+}
+
+.ups-h2-2 {
+    text-align: center;
+    font-family: Abel, Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+}
