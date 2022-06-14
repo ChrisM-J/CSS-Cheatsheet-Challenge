@@ -1,2 +1,2 @@
 # cheat-sheet-challenge
-CA cheatsheet-challenge
+CA Challenge-Project "Cheatsheet-Challenge"
